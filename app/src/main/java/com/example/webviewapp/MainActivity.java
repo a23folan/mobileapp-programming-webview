@@ -15,13 +15,12 @@ public class MainActivity extends AppCompatActivity {
 
     private WebView myWebView;
 
-
     public void showExternalWebPage(){
         myWebView.loadUrl("https://www.chess.com/member/arthmauler");
     }
 
     public void showInternalWebPage(){
-        myWebView.loadUrl("");
+        myWebView.loadUrl("file:///android_asset/about.html");
     }
 
     @Override
