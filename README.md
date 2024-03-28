@@ -21,7 +21,7 @@ under activity.xml för ID
 
 ### steg 2
 
-```
+```java 
 //skapar class för WebView
 private WebView myWebView;
     
